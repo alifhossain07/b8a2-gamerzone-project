@@ -67,12 +67,13 @@
     padding: 30px;
     align-items: center;
     justify-content: space-evenly;
-    border: 1px solid black;
-    height: 700px;
+    height: 600px;
+    background-color: #fbf7fd;
 }
 .banner-title
 {
     padding: 9px;
+    margin: 0px;
 }
 .banner-info{
     background-color: ;
@@ -81,6 +82,7 @@
 .banner-info p 
 {
     padding: 10px;
+    text-align: left;
     margin: 0px;
 }
 .banner-info button
@@ -123,4 +125,38 @@
 .banner-imgs img
 {
     width: 500px;
+}
+/*Cards Section Styles*/
+.cards
+{
+    margin-top: 80px;
+}
+.cards h1,p
+{
+text-align: center;
+}
+.span1
+{       background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+         -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+         font-family: Work Sans;
+        font-style: normal;
+        font-weight: 700;
+         line-height: normal;
+}
+.card
+{
+    display:flex;
+    margin-top: 60px;
+    justify-content: center;
+    gap: 20px;
+}
+.cardbox
+{ 
+    width: 342px;
+}
+.cardbox p
+{
+    text-align: left;
 }
