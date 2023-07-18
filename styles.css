@@ -131,7 +131,11 @@
 {
     margin-top: 80px;
 }
-.cards h1,p
+.cards h1 
+{
+text-align: center;
+}
+.cards p
 {
 text-align: center;
 }
@@ -159,4 +163,42 @@ text-align: center;
 .cardbox p
 {
     text-align: left;
+}
+/*Rectangle Styles*/
+.rectangle
+{
+    display: flex;
+    justify-content: center;
+    gap:300px;
+    margin-top: 40px;
+    align-items: center;
+    position: relative;
+}
+.rectangle-info
+{
+    width: 341px;
+    text-align: right
+}
+.span2
+{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.rectangle-img img
+{
+    width: 550px;
+    height:650px;
+}
+.relative-img{
+    position:absolute;
+    
+    top: 420px;
+    left: 800px;
+
+}
+.relative-img img
+{
+    width: 250px;
 }
