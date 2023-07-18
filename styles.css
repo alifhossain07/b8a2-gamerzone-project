@@ -65,12 +65,18 @@
 {
     display: flex;
     padding: 30px;
-    margin-top: 70px;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    height: 700px;
 }
 .banner-title
 {
     padding: 9px;
+}
+.banner-info{
+    background-color: ;
+    
 }
 .banner-info p 
 {
@@ -114,4 +120,7 @@
     line-height: normal;
     text-transform: uppercase;
 }
-
+.banner-imgs img
+{
+    width: 500px;
+}
