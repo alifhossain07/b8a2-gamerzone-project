@@ -1,0 +1,42 @@
+/*Common Styles*/
+
+
+
+
+/*Navbar Styles*/
+.navbar
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.nav-info
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.nav-info ul
+{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    color: black;
+}
+.nav-info a
+{
+    text-decoration: none;
+    color: black;
+}
+.ulbox
+{
+    display: flex;
+    align-items: center;   
+    width: 200px;
+    border-radius: 8px;
+    background-color: rgba(11, 2, 35, 0.10);
+    margin-left: 20px;
+}
