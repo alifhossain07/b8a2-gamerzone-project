@@ -67,6 +67,48 @@
     flex-direction: column;
     padding: 20px;
 }
+/*Rectangle*/
+.rectangle
+{
+    flex-direction: column;
+    gap:50px;
+}
+.rec-info
+{
+    font-size: 2rem ;
+    text-align: center;
+}
+.rectangle-info p
+{
+    text-align: center;
+    font-size: 0.9rem;
+}
+.rectangle-img
+{
+    margin: 0 auto;
+    width: 80%;
+    position: relative;
+    margin-left: 50px;
+    
+}
+.rectangle-img img
+{
+    height:100%;
+    width: 100%;
+    margin: 0 auto;
+}
+.relative-img
+{
+    left: -30px;
+    top:180px;
+    
+}
+.relative-img img
+{
+    width: 100px;
+    height:150px;
+}
+
 
 }
     
