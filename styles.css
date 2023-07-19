@@ -73,6 +73,7 @@
 .banner-title
 {
     padding: 9px;
+    font-size: 2.8rem;
     margin: 0px;
 }
 .banner-info{
@@ -84,6 +85,13 @@
     padding: 10px;
     text-align: left;
     margin: 0px;
+    color: #534C64;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 520;
+    line-height: normal;
+    text-transform: lowercase;
+
 }
 .banner-info button
 {
@@ -135,9 +143,23 @@
 {
 text-align: center;
 }
+.cards-title
+{
+    color: #0B0223;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
 .cards p
 {
-text-align: center;
+    text-align: center;
+    color: #534C64;
+
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
 .span1
 {       background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -179,10 +201,26 @@ text-align: center;
     align-items: center;
     position: relative;
 }
+.rec-info
+{
+    
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.74rem; 
+}
 .rectangle-info
 {
     width: 341px;
     text-align: right
+}
+.rectangle-info p
+{
+    color: #534C64; 
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.8rem; 
 }
 .span2
 {
@@ -260,16 +298,31 @@ gap:10px;
  gap: 20px;
  align-items: center;
 }
+.footer-title h1
+{
+    text-align: center;
+    font-size: 2.95rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
 .footer-title img
 {
-    height: 60px;
+    width: 86.041px;
+    height: 40px;
+    flex-shrink: 0;
 }
 .footer-links ul
 {
     display: flex;
     list-style-type: none;
      gap: 20px;
-    }
+     color: #FFF;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
     
     .footer-links ul a
     {
@@ -285,14 +338,26 @@ gap:10px;
 .footer-privacy
 {
     display: flex;
-    
     align-items: center;
     gap: 40px;
+    color: rgba(255, 255, 255, 0.60);
+    
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 
 }
 .footer-copyright
 {
     display: flex;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: -20px;
 }
 .span3
 {
