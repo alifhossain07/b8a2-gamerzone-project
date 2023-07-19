@@ -160,6 +160,11 @@ text-align: center;
 { 
     width: 342px;
 }
+.cardbox img:hover{
+    outline: 5px solid #FF42A5;
+    border-radius: 16px;
+    outline-offset: -4px;
+}
 .cardbox p
 {
     text-align: left;
@@ -216,14 +221,21 @@ text-align: center;
     margin: 0px auto;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 1200px;
-    gap:20px;
+    max-width: 1500px;
+    gap:30px;
 }
 .gametype
 {
     display: flex;
-    gap:10px;
+    gap:20px;
     border-radius: 40px;
+    padding: 7px;
+    width: 260px;
+    font: bold;
+}
+.gametype:hover{
+    border: 2px solid #FF42A5;
+    color: #FF42A5;
     padding: 5px;
 }
 /*Footer Section Styles*/
@@ -235,7 +247,6 @@ footer
 }
 .footer-container
 {
-border: 1px solid black;
 padding: 40px;
 display: flex;
 flex-direction: column;
