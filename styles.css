@@ -170,7 +170,7 @@ text-align: center;
     display: flex;
     justify-content: center;
     gap:300px;
-    margin-top: 40px;
+    margin-top: 100px;
     align-items: center;
     position: relative;
 }
@@ -194,11 +194,12 @@ text-align: center;
 .relative-img{
     position:absolute;
     
-    top: 420px;
-    left: 800px;
+    top: 400px;
+    left: 850px;
 
 }
 .relative-img img
 {
     width: 250px;
+    height: 300px;
 }
