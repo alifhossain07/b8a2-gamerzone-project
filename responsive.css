@@ -1,0 +1,72 @@
+@media screen and (max-width:576px) 
+{
+/*Navbar Styles*/
+.navbar ,.nav-info
+{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav-info
+{
+    gap:0px;
+}
+.nav-info ul
+{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+/*Banner Styles*/
+.banner
+{
+    flex-direction: column-reverse;
+    margin-top: 40px;
+  
+    
+    
+}
+.banner-imgs img
+{
+    margin-top: 30px;
+    width: 100%;
+}
+.banner-title
+{   
+    margin-top: 30px;
+    font-size: 1.6rem;
+}
+.goat
+{
+    font-size: 4rem;
+    
+}
+.banner-info
+{
+    margin-top: 40px;
+    padding-bottom:40px;
+}
+.banner-info p 
+{
+    font-size: 0.85rem;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+/*Online Games Section*/
+.cards-title
+{
+    font-size: 1.5rem;
+}
+.cards p
+{
+    font-size: 1rem;
+}
+.card
+{
+    flex-direction: column;
+    padding: 20px;
+}
+
+}
+    
