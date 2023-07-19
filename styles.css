@@ -226,3 +226,67 @@ text-align: center;
     border-radius: 40px;
     padding: 5px;
 }
+/*Footer Section Styles*/
+footer
+{
+    background-color: #0B0223;
+    color:white;
+    padding: 50px;
+}
+.footer-container
+{
+border: 1px solid black;
+padding: 40px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap:10px;
+}
+.footer-title
+{
+ display: flex;
+ gap: 20px;
+ align-items: center;
+}
+.footer-title img
+{
+    height: 60px;
+}
+.footer-links ul
+{
+    display: flex;
+    list-style-type: none;
+     gap: 20px;
+    }
+    
+    .footer-links ul a
+    {
+        color: white;
+        text-decoration: none;
+}
+.footer-icons
+{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.footer-privacy
+{
+    display: flex;
+    
+    align-items: center;
+    gap: 40px;
+
+}
+.footer-copyright
+{
+    display: flex;
+}
+.span3
+{
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;   
+}
