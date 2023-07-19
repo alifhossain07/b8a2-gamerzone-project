@@ -203,3 +203,26 @@ text-align: center;
     width: 250px;
     height: 300px;
 }
+/*Gametype Styles*/
+.game-section
+{
+    
+    padding: 100px;
+    background-color: #FBF7FD;
+}
+.gametypes
+{   
+    display: flex;
+    margin: 0px auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    gap:20px;
+}
+.gametype
+{
+    display: flex;
+    gap:10px;
+    border-radius: 40px;
+    padding: 5px;
+}
